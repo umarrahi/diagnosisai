@@ -81,11 +81,11 @@ Diagnostic Report
                                         <strong>FREE</strong> health camps, <strong>FREE</strong> OPDs Session and aware session details with you
                                     </p>
                                     <div class="form-check mb-0 flex-shrink-0">
-                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" value="" id="">
+                                        <input class="form-check-input flex-shrink-0 rounded-4" type="radio" name="tailored_diet_updates" value="Yes" id="">
                                         <label class="form-check-label text-15 flex-grow-1">Yes</label>
                                     </div>
                                     <div class="form-check mb-0 flex-shrink-0">
-                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" value="" id="">
+                                        <input class="form-check-input flex-shrink-0 rounded-4" type="radio" name="tailored_diet_updates" value="No" id="">
                                         <label class="form-check-label text-15 flex-grow-1">No</label>
                                     </div>
                                 </div>
