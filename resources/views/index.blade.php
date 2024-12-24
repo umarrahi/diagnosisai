@@ -33,7 +33,6 @@ Diagnosis AI - HealinGenz
         </div>
         <!-- Course Tab End -->
     </div>
-
     <div class="col-xxl-2 col-md-2 col-sm-2"></div>
 </div>
 
