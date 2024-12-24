@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('personal_info_id')->constrained('personal_info')->onDelete('cascade');
             $table->enum('tailored_diet_updates',['Yes', 'No']);
-
             $table->timestamps();
         });
     }
