@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title> Edmate Learning Dashboard HTML Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- file upload -->
+    <link rel="stylesheet" href="assets/css/file-upload.css">
+    <!-- file upload -->
+    <link rel="stylesheet" href="assets/css/plyr.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <!-- full calendar -->
+    <link rel="stylesheet" href="assets/css/full-calendar.css">
+    <!-- jquery Ui -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <!-- editor quill Ui -->
+    <link rel="stylesheet" href="assets/css/editor-quill.css">
+    <!-- apex charts Css -->
+    <link rel="stylesheet" href="assets/css/apexcharts.css">
+    <!-- calendar Css -->
+    <link rel="stylesheet" href="assets/css/calendar.css">
+    <!-- jvector map Css -->
+    <link rel="stylesheet" href="assets/css/jquery-jvectormap-2.0.5.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!--==================== Preloader Start ====================-->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+
+
+    <div class="dashboard-body">
+
+
+        <h1 class="text-center">Diagnosis AI Assistance</h1>
+        <div class="card">
+            <form action="#">
+                <!-- Personal Info Start -->
+                <div class="card-header border-bottom border-gray-100 flex-align">
+                    <h5 class="mb-0 text-primary-600">Personal Information</h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="row gy-4">
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Full Name</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="Enter full name">
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Date of Birth</label>
+                            <input type="date" class="form-control py-11" id="">
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Gender</label>
+                            <select id="" class="form-select py-9">
+                                <option value="1" disabled="Select Gender" selected="">Select gender
+                                </option>
+                                <option value="2">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Religion</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="Enter your religion">
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Email</label>
+                            <input type="email" class="form-control py-11" id="" placeholder="Enter your email">
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <label for="" class="form-label mb-8 h6">Address</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="City/State, Country">
+                        </div>
+                    </div>
+                </div>
+                <!-- Personal Info End -->
+
+                <!-- Vital Info Start -->
+                <div class="card-header border-bottom border-gray-100 flex-align">
+                    <h5 class="mb-0 text-primary-600">Vital Information</h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="row gy-4">
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Height (ft)</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="Enter your height">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Weight (kgs)</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="Enter your kgs">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Blood Glucose</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="112">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Blood Pressure</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="140/72">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Oxygen Lavel/Saturation (SpO2)</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="99">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">Heart Rate</label>
+                            <input type="number" class="form-control py-11" id="" placeholder="88">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">BMI Indicator</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="Over Weight">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">In-Body Water Level</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="Normal">
+                        </div>
+                        <div class="col-sm-4 col-xs-4">
+                            <label for="" class="form-label mb-8 h6">BP Indicator</label>
+                            <input type="text" class="form-control py-11" id="" placeholder="Hypertension">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Vital Info End -->
+
+                <div class="col-12 p-20">
+                    <button type="submit" class="btn btn-main rounded-pill py-9">Submit Symptoms</button>
+                </div>
+            </form>
+        </div>
+        <!-- Course Tab End -->
+    </div>
+
+    <!-- Footer -->
+    <div class="dashboard-footer">
+        <div class="flex-between flex-wrap gap-16">
+            <p class="text-gray-300 text-13 fw-normal"> &copy; Copyright HealinGenz 2024, All Right Reserverd</p>
+            <div class="flex-align flex-wrap gap-16">
+                <a href="#"
+                    class="text-gray-300 text-13 fw-normal hover-text-main-600 hover-text-decoration-underline">Support</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- Phosphor Js -->
+    <script src="assets/js/phosphor-icon.js"></script>
+    <!-- file upload -->
+    <script src="assets/js/file-upload.js"></script>
+    <!-- file upload -->
+    <script src="assets/js/plyr.js"></script>
+    <!-- dataTables -->
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <!-- full calendar -->
+    <script src="assets/js/full-calendar.js"></script>
+    <!-- jQuery UI -->
+    <script src="assets/js/jquery-ui.js"></script>
+    <!-- jQuery UI -->
+    <script src="assets/js/editor-quill.js"></script>
+    <!-- apex charts -->
+    <script src="assets/js/apexcharts.min.js"></script>
+    <!-- Calendar Js -->
+    <script src="assets/js/calendar.js"></script>
+    <!-- jvectormap Js -->
+    <script src="assets/js/jquery-jvectormap-2.0.5.min.js"></script>
+    <!-- jvectormap world Js -->
+    <script src="assets/js/jquery-jvectormap-world-mill-en.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

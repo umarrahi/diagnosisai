@@ -1,0 +1,45 @@
+/* === Dropdown List Design === */
+.dashboard-main-wrapper select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* font-size: 16px; */
+    background-color: white;
+    color: #333;
+    appearance: none; /* Removes default arrow */
+    -webkit-appearance: none; /* For Safari */
+    position: relative;
+  }
+  
+  .dashboard-main-wrapper select:focus {
+    border-color: #6a0dad; /* Highlight color on focus */
+    outline: none;
+  }
+  
+  /* Add custom dropdown arrow */
+  .dashboard-main-wrapper select::after {
+    
+    /* font-size: 12px; */
+    color: #6a0dad;
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+  }
+  
+  /* Customize the dropdown list options */
+  .dashboard-main-wrapper select option {
+    padding: 10px;
+    /* font-size: 16px; */
+  }
+  
+  /* Optional: Hover effect for options */
+  .dashboard-main-wrapper select option:hover {
+    border-radius: 20px;
+    background-color: #f0f0f0;
+  }
+
+
+
+  /* ======= HealinGenz ======== */
+/* Primary Green: #75B643
+Secondary Blue: #3072B9 */
