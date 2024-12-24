@@ -63,8 +63,8 @@ Vital Info
                         <div class="row gy-20">
                             <div class="col-sm-12 d-flex align-items-center flex-wrap">
                                 <span class="fs-1 text-gray-400 ">Your BMI is</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="bmi" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Underweight</option>
                                         <option value="2">Normal weight</option>
@@ -73,13 +73,13 @@ Vital Info
                                     </select>
                                 </div>
                                 <span class="fs-1 text-gray-400">. My last checked blood pressure was</span>
-                                <div class="">
-                                    <input type="number" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                <div>
+                                    <input type="number" name="blood_pressure" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
                                 <span class="fs-1 text-gray-400 ">and glucose level in</span>
                                 <span class="fs-1 text-gray-400 ">(Random/Fasting) was</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="glucose_level" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">70-99 mg/dL (Normal)</option>
                                         <option value="2">100-125 mg/dL (Prediabetes)</option>
@@ -87,12 +87,12 @@ Vital Info
                                     </select>
                                 </div>
                                 <span class="fs-1 text-gray-400 ">on dated</span>
-                                <div class="">
-                                    <input type="date" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                <div>
+                                    <input type="date" name="date" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
-                                <span class="fs-1 text-gray-400 ">. My last monitored heart rate was</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <span class="fs-1 text-gray-400">. My last monitored heart rate was</span>
+                                <div>
+                                    <select id="" name="heart_rate" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">60-100 bpm (Normal)</option>
                                         <option value="2">&lt;60 bpm (Bradycardia)</option>
@@ -102,7 +102,7 @@ Vital Info
                                 </div>
                                 <span class="fs-1 text-gray-400 ">and SpO2 was</span>
                                 <div class="">
-                                    <input type="number" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                    <input type="number" name="spo2" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
                             </div>
                             <div class="flex-align justify-content-end gap-8">

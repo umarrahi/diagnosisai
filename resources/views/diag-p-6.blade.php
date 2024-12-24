@@ -65,15 +65,15 @@ Family Info
                             <div class="col-sm-12 d-flex align-items-center flex-wrap">
                                 <span class="fs-1 text-gray-400 ">I have</span>
                                 <div class="input-main-div-p6">
-                                    <input type="number" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                    <input type="number" name="no_of_kids" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
                                 <span class="fs-1 text-gray-400 ">kids.</span>
 
                                 <span class="fs-1 text-gray-400"> Were you</span>
                                 <span class="fs-1 text-gray-400">feeling sad, depressed or hopeless in past few</span>
                                 <span class="fs-1 text-gray-400">months?</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="feeling_sad_past_months" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>
@@ -83,8 +83,8 @@ Family Info
 
                                 <span class="fs-1 text-gray-400">. Have you experienced any</span>
                                 <span class="fs-1 text-gray-400">significant disturbance in your appetite?</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="appetite_disturbance" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>

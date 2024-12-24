@@ -13,8 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('life_style', function (Blueprint $table) {
+        Schema::create('family_info', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('personal_info_id')->constrained('personal_info')->onDelete('cascade');
+            $table->integer('no_of_kids');
+            $table->enum('feeling_sad_past_months', ['Yes', 'No']);
+            $table->enum('appetite_disturbance', ['Yes', 'No', 'Maybe']);
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('life_style');
+        Schema::dropIfExists('family_info');
     }
 };

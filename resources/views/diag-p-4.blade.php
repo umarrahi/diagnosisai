@@ -64,8 +64,8 @@ Sleep & Mood
                         <div class="row gy-20">
                             <div class="col-sm-12 d-flex align-items-center flex-wrap">
                                 <span class="fs-1 text-gray-400 ">Usually, I sleep</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="sleep_duration" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">More than 6 Hours</option>
                                         <option value="2">Less than 6 Hours</option>
@@ -73,8 +73,8 @@ Sleep & Mood
                                 </div>
                                 <span class="fs-1 text-gray-400">. Do experience</span>
                                 <span class="fs-1 text-gray-400">any change or disturbance in sleep?</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="sleep_disturbance" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>
@@ -84,8 +84,8 @@ Sleep & Mood
                                 <span class="fs-1 text-gray-400">.</span>
                                 <span class="fs-1 text-gray-400">Were you feeling sad, depressed or hopeless in</span>
                                 <span class="fs-1 text-gray-400"> past few months?</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="feeling_sad" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>

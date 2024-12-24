@@ -64,8 +64,8 @@ Lifestyle & Energy
                         <div class="row gy-20">
                             <div class="col-sm-12 d-flex align-items-center flex-wrap">
                                 <span class="fs-1 text-gray-400 ">I am (Job Role)</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="job_role" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Student</option>
                                         <option value="2">Professional</option>
@@ -75,8 +75,8 @@ Lifestyle & Energy
                                 </div>
                                 <span class="fs-1 text-gray-400">. Are you happy with </span>
                                 <span class="fs-1 text-gray-400">your job and routine?</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="happy_with_job" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>
@@ -85,8 +85,8 @@ Lifestyle & Energy
                                 </div>
                                 <span class="fs-1 text-gray-400">Have you been</span>
                                 <span class="fs-1 text-gray-400"> feeling tired? or having low energy</span>
-                                <div class="">
-                                    <select id="" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
+                                <div>
+                                    <select id="" name="low_energy" class="form-select fs-2 border-0 border-bottom fst-italic fw-bold">
                                         <option value="1" disabled selected></option>
                                         <option value="2">Yes</option>
                                         <option value="2">No</option>

@@ -15,8 +15,9 @@ return new class extends Migration
     {
         Schema::create('physical_details', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('personal_information_id')->constrained('personal_information')->onDelete('cascade');
             $table->enum('marital_status', ['Single', 'Married', 'Divorced', 'Widowed']);
-            $table->date('dob');
+            $table->date('date_of_birth');
             $table->float('height', 5, 2);
             $table->float('weight', 5, 2);
             $table->enum('significant_weight_loss', ['Yes', 'No']);

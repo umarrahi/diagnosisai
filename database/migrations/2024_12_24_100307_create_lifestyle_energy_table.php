@@ -13,8 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('need_assistance', function (Blueprint $table) {
+        Schema::create('lifestyle_energy', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('personal_info_id')->constrained('personal_info')->onDelete('cascade');
+            $table->enum('job_role', ['Student', 'Professional', 'Self-employed', 'Retired']);
+            $table->enum('happy_with_job', ['Yes', 'No', 'Maybe']);
+            $table->enum('low_energy', ['Yes', 'No']);
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('need_assistance');
+        Schema::dropIfExists('lifestyle_energy');
     }
 };

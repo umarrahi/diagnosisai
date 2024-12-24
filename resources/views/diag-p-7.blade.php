@@ -66,30 +66,28 @@ Medical History
 
                                 <span class="fs-1 text-gray-400 ">Are you taking medication?</span>
                                 <div class="input-main-div">
-                                    <input type="text"
-                                        class="input-field form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                    <input type="text" name="medication" class="input-field form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
 
                                 <span class="fs-1 text-gray-400 ">.</span>
                                 <span class="fs-1 text-gray-400 ">Are you taking any multivitamin?</span>
                                 <div class="input-main-div-p7">
-                                    <input type="text"
-                                        class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
+                                    <input type="text" name="multivitamins" class="form-control fs-2 border-0 border-bottom text-gray-400 fst-italic fw-bold">
                                 </div>
                                 <span class="fs-1 text-gray-400 ">.</span>
 
                                 <span class="fs-1 text-gray-400">My Past Medical History has</span>
                                 <div class="d-flex gap-10 align-items-center mx-10">
                                     <div class="form-check mb-0 flex-shrink-0">
-                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" value="" id="">
+                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" name="past_medical_history[]" value="Hypertension" id="">
                                         <label class="form-check-label text-15 flex-grow-1">Hypertension</label>
                                     </div>
                                     <div class="form-check mb-0 flex-shrink-0">
-                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" value="" id="">
+                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" name="past_medical_history[]" value="Diabetes" id="">
                                         <label class="form-check-label text-15 flex-grow-1">Diabetes</label>
                                     </div>
                                     <div class="form-check mb-0 flex-shrink-0">
-                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" value="" id="">
+                                        <input class="form-check-input flex-shrink-0 rounded-4" type="checkbox" name="past_medical_history[]" value="Heart Disease" id="">
                                         <label class="form-check-label text-15 flex-grow-1">Heart Disease</label>
                                     </div>
                                 </div>
